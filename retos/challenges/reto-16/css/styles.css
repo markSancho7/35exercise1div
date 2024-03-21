@@ -1,0 +1,44 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background:#62306D
+  Orange: #E38F66
+  Yellow: #F7EC7D
+*/
+
+.box {
+  background-color: #62306d;
+}
+
+.ticket {
+  width: 140px;
+  height: 100px;
+  background-color:#F7EC7D ;
+  margin-left: 100px;
+  margin-top: 100px;
+  box-shadow: 60px 0px #E38F66;
+}
+.ticket::after{
+  content: '';
+  position: absolute;
+  top:90px;
+  left: 90px;
+  width: 30px;
+  height: 30px;
+  border-radius: 20px;
+  background-color: #62306d;
+  box-shadow: 195px 0px #62306d, 195px 90px #62306d, 0px 90px #62306d;
+}
+.ticket::before{
+  content: '';
+  position: absolute;
+  top:90px;
+  left: 230px;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #62306d;
+  box-shadow: 0px 100px #62306d;
+}
+
+

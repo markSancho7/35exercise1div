@@ -1,0 +1,20 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background: #6e344e
+  square: #ffc677
+*/
+
+.box {
+  background-color: #6e344e;
+}
+
+.square {
+  height: 50px;
+  width: 50px;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: #ffc677;
+  box-shadow:250px 0px #ffc677, 250px 150px #ffc677, 0px 150px #ffc677 ;
+}
+

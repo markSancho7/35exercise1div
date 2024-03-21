@@ -1,0 +1,33 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background:#293462
+  White: #FFF1C1
+  Stick: #FE5F55
+  Shadow: #A64942
+*/
+
+.box {
+  background-color: #293462;
+}
+
+.ice-cream {
+  width: 100px;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 50px;
+  border-radius: 50px 50px 20px 20px;
+  background-color:#FFF1C1 ;
+}
+.ice-cream::before{
+  content: '';
+  position: absolute;
+  width: 30px;
+  height: 40px;
+  left: 185px;
+  top:210px;
+  border-radius: 0 0 10px 10px;
+  background-color:#FE5F55 ;
+  box-shadow: 0 -10px #A64942;
+}

@@ -1,0 +1,39 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  background: #4893d2
+  shape:#063a86
+*/
+
+.box {
+  background-color: #4893d2;
+}
+
+.shape {
+  width: 100px;
+  height: 250px;
+  background-color: #063a86;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 25px;
+}
+.shape::before{
+  content: '';
+  position: absolute;
+  background-color: #4893d2;
+  height: 70px;
+  width: 70px;
+  rotate: 45deg;
+  left: 165px;
+  top: -10px;
+}
+.shape::after{
+  content: '';
+  position: absolute;
+  background-color: #4893d2;
+  height: 70px;
+  width: 70px;
+  rotate: 45deg;
+  left: 165px;
+  top: 240px;
+}

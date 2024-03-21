@@ -1,0 +1,41 @@
+/* 
+IMPORTANTE: USAR UN SOLO DIV
+Colors:
+  Background: #1e3163
+  Soap: #ff5f54
+  Shadow: #bf4740
+*/
+
+.box {
+  background-color: #1e3163;
+}
+
+.soap {
+  width: 200px;
+  height: 100px;
+  background-color:#ff5f54 ;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 90px;
+  border-radius: 20px;
+}
+.soap::after{
+  z-index: -1;
+  content: '';
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  background-color: #bf4740;
+  border-radius: 20px;
+  top:110px
+}
+.soap::before{
+  content: '';
+  position: absolute;
+  width: 140px;
+  height: 40px;
+  background-color: #bf4740;
+  top:120px;
+  left: 130px;
+  border-radius: 20px;
+}
