@@ -13,20 +13,21 @@ Colors:
 .leaf {
   height: 120px;
   width: 120px;
-  border-radius: 100% 100% 100% 0;
   background-color: #f3ac3c;
-  rotate: 180deg;
-  margin-left: 80px;
-  margin-top: 150px;
-  box-shadow: -60px 60px #998235;
+  border-radius: 100%;
+  right: 100px;
+  margin-left: 200px;
+  margin-top: 30px;
 }
-.leaf::before{
+.leaf::after{
   content: '';
   position: absolute;
   height: 120px;
   width: 120px;
-  background-color: red;
-  border-radius: 100%;
-  right: 100px;
-  z-index: -1;
+  border-radius: 100% 100% 100% 0;
+  background-color: #f3ac3c;
+  rotate: 180deg;
+  margin-left: -120px;
+  margin-top: 120px;
+  box-shadow: -60px 60px #998235;
 }
